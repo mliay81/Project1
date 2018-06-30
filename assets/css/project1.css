@@ -1,22 +1,31 @@
+
 body.home {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    overflow: hidden;
 }
 
+.jumbotron {
+    background-color: transparent;
+    border: 8px dashed black;
+}
 
-body.home #canvas-basic  {
+h1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Megrim', cursive;
+    font-weight: 550;
+    text-shadow: 1px 1px black;
+}
+
+#canvas-basic  {
     position: absolute;
     display: block;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-size: cover;
-    background-position: 0 85%;
-
     top: 0;
     right: 0;
     bottom: 0;
@@ -25,5 +34,101 @@ body.home #canvas-basic  {
 
 body.home #Zip {
     margin: auto;
-
 }
+
+#box1 {
+    border: 4px solid aqua;
+    background-color: #202746;
+    margin-left: 20%;
+    border-radius: 10px;
+    display: inline-block;
+    width: 60%;
+}
+
+#zipSubmit {
+    border-radius: 6px;
+    border: 1px solid aqua;
+    font-size: 19px;
+    color: aqua;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+label{
+    color: aqua;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#user-input{
+    margin-top: 3%;
+    margin-left: 24%;
+}
+
+#zip{
+    background: transparent;
+    border: 1px solid aqua;
+    color: aqua;
+    width: 30%;
+}
+
+#event-div, #restaurant-div{
+    color: aqua;
+}
+
+#restaurant-div{
+    font-family: 'Codystar', cursive;
+    font-size: 20px;
+}
+
+#event-item{
+    border: solid 1px yellow;
+    margin-bottom: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#weatherDiv{
+    color: aqua;
+    font-family: 'Codystar', cursive;
+    font-size: 20px;
+}
+
+#message-div{
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* Ping Pong animation */
+.pingpongContainer {
+    width: 500px;
+    display: inline-block;
+    margin-left: 35%;
+    transform: translateY(-50px);
+  }
+
+  .bar {
+    background: #FFFFFF;
+    width: 10px;
+    height: 100px;
+  }
+  .bar1 {
+    float: left;
+  }
+  .bar2 {
+    float: right;
+  }
+  .ball {
+    background: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 45px;
+    left: 10px;
+  }
+
